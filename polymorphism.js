@@ -15,7 +15,8 @@ class Alligator extends Animal {
         console.log(this.name+' eats fishes');
 
     }
-    
-    }
+}
 let Shark = new Alligator ('Shark');
 Shark.eat();
+
+//demo polimor
