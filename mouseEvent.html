@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script type="text/javascript">
+            function setNewImage()
+            {
+                document.getElementById("img1").src="image/paris-wallpaper-idlewp-4.jpg";
+            }
+
+            function setOldImage()
+            {
+                document.getElementsById("img1").src="image/paris-wallpaper-idlewp-4.jpg";   
+            }
+
+        </script>
+    </head>
+    <body>
+    <img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()" src="image/Paris- Rain-Wallpaper.webp" width="300">
+
+        <br><br>
+
+        <img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()" src="image/paris-wallpaper-idlewp-4.jpg" width="300">
+    </body>
+</html>

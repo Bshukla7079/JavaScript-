@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>example of validation </title>
+        <script>
+            function validate()
+            {
+
+                var username = document.getElementById("in1");
+                var password = document.getElementById("in2");
+
+                if(username.value=="" || password.value=="")
+                {
+                    alert("No blank values allowed");
+                }
+                else
+                {
+                    
+                }
+            }
+            
+        </script>
+    </head>
+    <body>
+        
+        <form action="message.html">
+            <input type="text" id="in1" placeholder="Enter user name" >
+            <br>
+            <br>
+            <input type="password" id="in2" placeholder="Enter password">
+            <br>
+            <br>
+            <button onclick="validate()" type="submit"> submit </button>
+        </form>
+
+    </body>
+</html>

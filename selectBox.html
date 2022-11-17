@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my page js</title>
+    </head>
+    <script>
+        function fn1(){
+
+            var select = document.getElementById("sel1");
+            alert(select.options[select.selectedIndex].value);
+        }
+
+    </script>
+    <body>
+        <select id="sel1">
+            <option value="bandana"> bandana</option>
+            <option value="bharti"> bharti</option>
+            <option value="varsha">varsha</option>
+            <option value="ankita">ankita</option>
+        </select>
+        <br><br>
+        <button onclick="fn1()">click me</button>
+
+    </body>
+</html>

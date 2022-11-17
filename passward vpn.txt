@@ -1,0 +1,15 @@
+Primary VPN Server
+	203.100.78.139
+Secondary VPN Server
+	116.193.163.14
+VPN Username
+	bshukla
+VPN Password
+	       						w"<]wt<&8Y+3$d
+Project Name
+	Denali QA
+Create/Change Date
+	20.April.2022
+End Date
+	Till Covid 19
+Purpose 	New Request
